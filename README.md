@@ -35,7 +35,7 @@
 2. Output variable (based on sensory data)
    - quality (score between 0 and 10)
 
-<img src="https://user-images.githubusercontent.com/46181173/118449592-46d9f580-b72e-11eb-9d92-efe658006345.png" width = "80%"><br>
+<img src="https://user-images.githubusercontent.com/46181173/118449592-46d9f580-b72e-11eb-9d92-efe658006345.png" width = "60%"><br>
 
 1. alchol, volatile acidity는 quality와 비교적 높은 상관관계를 갖는다.
 2. citric acid, density는 fixed acid와 비교적 높은 상관관계를 갖는다.
@@ -57,6 +57,7 @@ RandomForest의 성능이 가장 좋음
 ## 파라미터 튜닝 및 성능 확인
 
 1. Box plot
+
    <img src="https://user-images.githubusercontent.com/46181173/118450532-42620c80-b72f-11eb-96b9-a5887ec791df.png" width="60%"><br>
    Tree의 수가 많아질수록 Scores가 대체로 높아짐을 확인
 
