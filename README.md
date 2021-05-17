@@ -57,12 +57,12 @@ RandomForest의 성능이 가장 좋음
 ## 파라미터 튜닝 및 성능 확인
 
 1. Box plot
-   <img src="https://user-images.githubusercontent.com/46181173/118450532-42620c80-b72f-11eb-96b9-a5887ec791df.png"><br>
+   <img src="https://user-images.githubusercontent.com/46181173/118450532-42620c80-b72f-11eb-96b9-a5887ec791df.png" width="60%"><br>
    Tree의 수가 많아질수록 Scores가 대체로 높아짐을 확인
 
 2. ROC Curve
 
-   <img src="https://user-images.githubusercontent.com/46181173/118450552-4726c080-b72f-11eb-9cda-6e36cb7b335a.png"> <br>
+   <img src="https://user-images.githubusercontent.com/46181173/118450552-4726c080-b72f-11eb-9cda-6e36cb7b335a.png" width="60%"> <br>
    모델의 성능이 좋음을 확인
 
 3. Classification Report
@@ -77,12 +77,12 @@ F1 = (2 X recall X precision) / (recall+preicision) <br>
 정밀도와 재현율이 모두 강한 분류기를 선호 F1_score<br><br>
 예측 확률을 예측으로 변환 할 때 가장 좋은 F1 Score를 위한 cut-off 탐색
 
-<img src="https://user-images.githubusercontent.com/46181173/118451467-404c7d80-b730-11eb-9b12-6e77473ad941.png">
+<img src="https://user-images.githubusercontent.com/46181173/118451467-404c7d80-b730-11eb-9b12-6e77473ad941.png" width="60%">
 0.3 ~0.5 cut-off 에서 높은 값을 보임
 
 # Importance
 
-<img src="https://user-images.githubusercontent.com/46181173/118451026-c5836280-b72f-11eb-81da-244f2c9588e3.png">
+<img src="https://user-images.githubusercontent.com/46181173/118451026-c5836280-b72f-11eb-81da-244f2c9588e3.png" width="60%">
 alchol, sulphates, volatile acidty, density 순으로 영향을 크게 미침 <br><br>
 
 <p>
