@@ -61,6 +61,7 @@ RandomForest의 성능이 가장 좋음
    Tree의 수가 많아질수록 Scores가 대체로 높아짐을 확인
 
 2. ROC Curve
+
    <img src="https://user-images.githubusercontent.com/46181173/118450552-4726c080-b72f-11eb-9cda-6e36cb7b335a.png"> <br>
    모델의 성능이 좋음을 확인
 
